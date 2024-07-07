@@ -1,0 +1,82 @@
+.main{
+    position: absolute;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Mochiy+Pop+P+One&family=Syncopate:wght@400;700&display=swap');
+
+
+.flip:hover{
+    transform: rotateY(180deg);
+}
+
+.flip{
+    position: absolute;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: .7s;
+}
+
+.front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.512);
+    backface-visibility: hidden;
+}
+
+.back{
+    transform: rotateY(180deg);
+}
+
+/*flip1*/
+
+.flip2:hover{
+    transform: rotateY(180deg);
+}
+
+.flip2{
+    position: relative;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: .7s;
+}
+
+.front2, .back2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.512);
+    backface-visibility: hidden;
+}
+
+.back2{
+    transform: rotateY(180deg);
+}
+
+/*flip2*/
+
+.flip3:hover{
+    transform: rotateY(180deg);
+}
+
+a, .flip3{
+    position: relative;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: .7s;
+}
+
+.front3, .back3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.512);
+    backface-visibility: hidden;
+}
+
+.back3{
+    transform: rotateY(180deg);
+}

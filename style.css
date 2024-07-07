@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Gabarito:wght@400..900&family=Mochiy+Pop+P+One&family=Syncopate:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --cor1: #3BB2B6;
+    --cor2: #45898B;
+    --cor3: #25DBE1;
+    --cor4: #406061; 
+    --cor5: #2D3636; 
+    --cor6: #1AA4E1;
+    --cor7: #30BCED;
+    --fonte1: "Gabarito";
+    --fonte2: "Mochiy Pop P One";
+    --fonte3: "Syncopate"
+}
+
+h1{
+    margin-left: 420px;
+    color: var(--cor7);
+    font-size: 2.5em;
+    margin-top: 70px;
+}
+
+body{
+    height: 100vh;
+    background-color: #2A1E5C;
+    font-family: var(--fonte1);
+}
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 90vw;
+}
+
+.flip, .flip2, .flip3{
+    border: 2px solid var(--cor1);
+    height: 350px;
+    margin: 180px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: #50408f;
+}
+
+p{
+    text-align: center;
+    margin-top: 40%;
+    color: var(--cor7);
+}
+
+.front > p, .front2 > p, .front3 > p{
+    font-size: 3em;
+}
+
+.back > p, .back2 > p, .back3 > p{
+    font-size: 1.5em;
+}
+
+button{
+    cursor: pointer;
+    margin-top: 25px;
+    background-color: #EE4266;
+    box-shadow: 0px 0px 8px #ee426798;
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+button:hover{
+    border: 1px solid white;
+    margin-top: 23px;
+    margin-left: 5px;
+    transition: 0.4s;
+}
+
